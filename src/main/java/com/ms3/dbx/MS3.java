@@ -100,7 +100,7 @@ public class MS3
 		System.out.println("Table X has been created in database.");
 	}
 
-	// Reads data from sample.csv file using OpenCSV
+	// Reads data from ms3Interview.csv file using OpenCSV
 	// If there is a blank column in a row, write it to "bad-data-<timestamp>.csv" file
 	// Else insert the row into the database
 	// Increment recordsReceived for each row in sample.csv file
